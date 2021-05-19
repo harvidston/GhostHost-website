@@ -741,9 +741,9 @@ body {
   position: relative;
   border-radius: 50%;
   background-color: var(--fun_color);
-  width: 60px;
-  height: 60px;
-  margin-top: -12px;
+  width: 55px;
+  height: 55px;
+  margin-top: -12px; 
 }
 .func:hover {
   transform: scale(1.2, 1.2);
