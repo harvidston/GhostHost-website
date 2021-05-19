@@ -23,6 +23,24 @@ body {
     font-size: 16px;
     line-height: 1.2;
 }
+@font-face {
+  font-family: "LatoLight"; 
+  src: url("../fonts/Lato\ Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+    font-family: "LatoHeavy"; 
+    src: url("../fonts/Lato-Heavy.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+  font-family: "LatoBold"; 
+  src: url("../fonts/LatoBold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
 /* <----CONTAINER---->*/
 .container {
 	width: 100%;
@@ -77,8 +95,7 @@ body {
 	position: relative;
    width: 100%;
    height: 100vh;
-    background: url("../images/header/Header.png")0 0/100% 100% no-repeat;
-
+    background: url(/images/header/Header.png)0 0/100% 100% no-repeat;
    /* background: url(/images/header/Header\ BG.png) center no-repeat;*/
    overflow: hidden;
 
@@ -169,7 +186,7 @@ body {
   
   .domain-text-heading {
     font-size: 24px;
-    color: #383737;
+    /* color: #383737; */
   }
   
   .domain__price__description {
@@ -198,9 +215,9 @@ body {
     -webkit-transition: background-color 500ms;
   }
   
-  .domain__form:focus, .domain__form:hover {
-    background-color: #dfdfdf;
-  }
+    /* .domain__form:focus, .domain__form:hover {
+      background-color: #dfdfdf;
+    } */
   
   .search-common {
     display: flex;
@@ -622,8 +639,10 @@ body {
 }
 .comments__text {
   max-width: 830px;
-  font-family: "Times New Roman", sans-serif;
+  font-family: "LatoLight"; 
+
   font-size: 20px;
+  font-weight: 100 ;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -635,12 +654,15 @@ body {
 }
 .quote__author {
   font-size: 20px;
-  font-weight: bold;
-  padding-right: 12px;
-  border-right: 1px solid #bbbbbb;
+  /* padding-right: 12px; */
+  /* border-right: 1px solid #bbbbbb; */
+  font-family: "LatoBold"; 
+
 }
 
 .quotes__links {
+  padding-top: 7px;
+
   display: flex;
   width: 48px;
   align-items: center;
@@ -730,12 +752,16 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: black;
+  font-family: "LatoHeavy"; 
+
 }
 .function__description {
   font-size: 16px;
   font-weight: 300;
   text-align: center;
   color: #bbbbbb;
+  font-family: "LatoLight"; 
+
 }
 
 /* <----NEW FOOTER---->*/
