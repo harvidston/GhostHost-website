@@ -78,6 +78,8 @@ body {
    width: 100%;
    height: 100vh;
     background: url(../images/header/Header.png)0 0/100% 100% no-repeat;
+background: url('../images/comments_section/comments_bg.png') 0 0/100% 100% no-repeat;
+
    /* background: url(/images/header/Header\ BG.png) center no-repeat;*/
    overflow: hidden;
 
