@@ -564,6 +564,8 @@ body {
 }
 
 .about__text {
+  font-family: "LatoLight";
+  font-weight: 500;
   font-size: 18px;
   color: #bbbbbb;
   width: 100%;
