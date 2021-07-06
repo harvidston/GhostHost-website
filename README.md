@@ -1,7 +1,7 @@
-# Лабораторная работа №1 `Ghost_Host-website`
+# Лабораторная работа №1 
 Задание: Pixel perfect вёрстка.Создать веб-страницу по макету, используя HTML и СSS, библиотеку иконок Font Awesome (версии 4.7 должно быть достаточно).
 
-Вариант 2: [Ссылка на макет](https://www.dropbox.com/s/td6m8tocobwfm9s/Ghost%20Host%20Homepage%20-%20Remastered.psd?dl=0)
+Вариант 2: [Ссылка на макет `Ghost_Host`](https://www.dropbox.com/s/td6m8tocobwfm9s/Ghost%20Host%20Homepage%20-%20Remastered.psd?dl=0)
 
 Компонент должен содержать следующие элементы: 
 *	Значок закрытия (1). Щелчок по нему закрывает компонент.
